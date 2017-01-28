@@ -1,0 +1,89 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html, body{
+	height:100%;
+	overflow-y: hidden;
+}
+body {
+  margin: 0 auto;
+}
+.container{
+  width: 350px;
+  height: 350px;
+  text-align: center;
+  background-color: #f7f7f7;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 150px;
+	box-shadow: 0px 2px 3px #b5b5b5;
+}
+
+input[name="email"],input[name="password"]{
+	position: relative;
+	top: 50px;
+  height: 37px;
+  width: 247px;
+  font-size: 18px;
+  margin-bottom: 0px;
+  background-color: #fff;
+  padding-left: 10px;
+	border: 1px solid #BDC2C9;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+input[name="email"]:focus,input[name="password"]:focus{
+	outline:0px;
+	-webkit-box-shadow: 0 0 1px 1px #6392c5;
+	-moz-box-shadow: 0 0 1px 1px #6392c5;
+	box-shadow: 0 0 1px 1px #6392c5;
+	border-bottom: 1px solid #6392c5;
+}
+
+input[type="email"]{
+	border-bottom: none;
+}
+
+.btn-login{
+	position: relative;
+	top: 59px;
+	width: 258px;
+  padding: 7px 7px;
+  color: #fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+  border: none;
+  background-color: #5690ed;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-login:hover{
+	background-color: #3b80ee;
+}
+
+img.logo {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	top: 30px;
+	padding: 5px;
+}
+.consultor-texto{
+	position: absolute;
+	top: 40px;
+	left: 50%;
+	margin-left: -73px;
+	font-size: 2.0em;
+	color:#9a9a9a;
+	font-family: 'Open Sans', sans-serif;
+}
+.acceder-texto{
+	position: absolute;
+	top: 110px;
+	left: 50%;
+	margin-left: -140px;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}

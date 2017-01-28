@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Iniciar_sesion</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilos/style.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script type="text/javascript">
+
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+    </script>
+  </head>
+  <body>
+    <div class="consultor-texto">
+      Consultor
+    </div>
+    <div class="acceder-texto">
+      Accede con tu cuenta de consultor
+    </div>
+    <div class="container">
+      <img src="images/logo.png" class="logo">
+      <form>
+        <div class="form-input" id="eml">
+          <input type="email" name="email" autocomplete="off" placeholder="Correo">
+        </div>
+        <div class="form-input">
+          <input type="password" name="password" placeholder="Contraseña">
+        </div>
+        <input type="submit" name="submit" value="Iniciar Sesión" class="btn-login">
+      </form>  
+    </div>
+  </body>
+</html>
